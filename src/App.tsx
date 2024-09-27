@@ -8,6 +8,9 @@ import BrooklandPage from "./components/BrooklandPage";
 import CassinaPage from "./components/CassinaPage";
 import CrawfordPage from "./components/CrawfordPage";
 import CypressPage from "./components/CypressPage";
+import FrogmorePage from "./components/FrogmorePage";
+import MiddletonPage from "./components/MiddletonPage";
+import OakIslandPage from "./components/OakIslandPage";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/cassina-page" element={<CassinaPage />} />
         <Route path="/crawford-page" element={<CrawfordPage />} />
         <Route path="/cypress-page" element={<CypressPage />} />
+        <Route path="/frogmore-page" element={<FrogmorePage />} />
+        <Route path="/middleton-page" element={<MiddletonPage />} />
+        <Route path="/oakIsland-page" element={<OakIslandPage />} />
       </Routes>
     </div>
   );

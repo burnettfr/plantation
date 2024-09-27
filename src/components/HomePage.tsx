@@ -62,6 +62,26 @@ function HomePage() {
             linkText="Click here for Details"
           />
         </SimpleGrid>
+        <SimpleGrid columns={4} padding="20px" spacing={10}>
+          <PlCard
+            fileName="/FrogmoreCard.png"
+            headingName="Frogmore"
+            detailFileName="/frogmore-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/MiddletonCard.png"
+            headingName="Middleton"
+            detailFileName="/middleton-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/OakIslandCard.png"
+            headingName="OakIsland"
+            detailFileName="/oakIsland-page"
+            linkText="Click here for Details"
+          />
+        </SimpleGrid>
       </GridItem>
     </Grid>
   );
