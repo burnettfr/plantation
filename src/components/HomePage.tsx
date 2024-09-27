@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Grid, GridItem, SimpleGrid, Text, HStack } from "@chakra-ui/react";
 import PlCard from "./Card";
 
@@ -21,11 +20,22 @@ function HomePage() {
           <PlCard
             fileName="/BleakHallCard.png"
             headingName="Bleak Hall"
-            detailFileName="/bailey-page"
+            detailFileName="/bleakHall-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/BlueHouseCard.png"
+            headingName="Blue House"
+            detailFileName="/blueHouse-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/BrickHouseCard.png"
+            headingName="Brick House"
+            detailFileName="/brickHouse-page"
             linkText="Click here for Details"
           />
         </SimpleGrid>
-        <Link to="/second-page">Go to the Second Page</Link>
       </GridItem>
     </Grid>
   );
