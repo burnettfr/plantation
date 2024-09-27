@@ -10,7 +10,7 @@ function HomePage() {
         </HStack>
       </GridItem>
       <GridItem area="main">
-        <SimpleGrid columns={4} padding="10px" spacing={10}>
+        <SimpleGrid columns={4} padding="20px" spacing={10}>
           <PlCard
             fileName="/BaileyCard.png"
             headingName="Bailey House"
@@ -33,6 +33,20 @@ function HomePage() {
             fileName="/BrickHouseCard.png"
             headingName="Brick House"
             detailFileName="/brickHouse-page"
+            linkText="Click here for Details"
+          />
+        </SimpleGrid>
+        <SimpleGrid columns={4} padding="20px" spacing={10}>
+          <PlCard
+            fileName="/BrooklandCard.png"
+            headingName="Brookland"
+            detailFileName="/brookland-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/CassinaCard.png"
+            headingName="Cassina"
+            detailFileName="/cassina-page"
             linkText="Click here for Details"
           />
         </SimpleGrid>
