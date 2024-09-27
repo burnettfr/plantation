@@ -6,6 +6,8 @@ import BlueHousePage from "./components/BlueHousePage";
 import BrickHousePage from "./components/BrickHousePage";
 import BrooklandPage from "./components/BrooklandPage";
 import CassinaPage from "./components/CassinaPage";
+import CrawfordPage from "./components/CrawfordPage";
+import CypressPage from "./components/CypressPage";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/brickHouse-page" element={<BrickHousePage />} />
         <Route path="/brookland-page" element={<BrooklandPage />} />
         <Route path="/cassina-page" element={<CassinaPage />} />
+        <Route path="/crawford-page" element={<CrawfordPage />} />
+        <Route path="/cypress-page" element={<CypressPage />} />
       </Routes>
     </div>
   );

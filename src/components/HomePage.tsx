@@ -49,6 +49,18 @@ function HomePage() {
             detailFileName="/cassina-page"
             linkText="Click here for Details"
           />
+          <PlCard
+            fileName="/CrawfordCard.png"
+            headingName="Crawford"
+            detailFileName="/crawford-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/CypressCard.png"
+            headingName="Cypress"
+            detailFileName="/cypress-page"
+            linkText="Click here for Details"
+          />
         </SimpleGrid>
       </GridItem>
     </Grid>
