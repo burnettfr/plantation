@@ -12,7 +12,7 @@ import FrogmorePage from "./components/FrogmorePage";
 import MiddletonPage from "./components/MiddletonPage";
 import OakIslandPage from "./components/OakIslandPage";
 import OldHousePage from "./components/OldHousePage";
-import SeasidePage from "./components/SeaSidePage";
+import SeasidePage from "./components/SeasidePage";
 import SunnySidePage from "./components/SunnySidePage";
 import SwallowBluffPage from "./components/SwallowBluffPage";
 import WindsorPage from "./components/WindsorPage";
