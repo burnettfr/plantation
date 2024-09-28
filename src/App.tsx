@@ -11,6 +11,12 @@ import CypressPage from "./components/CypressPage";
 import FrogmorePage from "./components/FrogmorePage";
 import MiddletonPage from "./components/MiddletonPage";
 import OakIslandPage from "./components/OakIslandPage";
+import OldHousePage from "./components/OldHousePage";
+import SeasidePage from "./components/SeaSidePage";
+import SunnySidePage from "./components/SunnySidePage";
+import SwallowBluffPage from "./components/SwallowBluffPage";
+import WindsorPage from "./components/WindsorPage";
+import WoodruffPage from "./components/WoodruffPage";
 
 function App() {
   return (
@@ -28,6 +34,12 @@ function App() {
         <Route path="/frogmore-page" element={<FrogmorePage />} />
         <Route path="/middleton-page" element={<MiddletonPage />} />
         <Route path="/oakIsland-page" element={<OakIslandPage />} />
+        <Route path="/oldHouse-page" element={<OldHousePage />} />
+        <Route path="/seaside-page" element={<SeasidePage />} />
+        <Route path="/sunnySide-page" element={<SunnySidePage />} />
+        <Route path="/swallowBluff-page" element={<SwallowBluffPage />} />
+        <Route path="/windsor-page" element={<WindsorPage />} />
+        <Route path="/woodruff-page" element={<WoodruffPage />} />
       </Routes>
     </div>
   );

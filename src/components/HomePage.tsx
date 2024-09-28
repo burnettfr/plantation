@@ -77,8 +77,48 @@ function HomePage() {
           />
           <PlCard
             fileName="/OakIslandCard.png"
-            headingName="OakIsland"
+            headingName="Oak Island"
             detailFileName="/oakIsland-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/OldHouseCard.png"
+            headingName="Old House"
+            detailFileName="/oldHouse-page"
+            linkText="Click here for Details"
+          />
+        </SimpleGrid>
+        <SimpleGrid columns={4} padding="20px" spacing={10}>
+          <PlCard
+            fileName="/SeasideCard.png"
+            headingName="Seaside"
+            detailFileName="/seaside-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/SunnySideCard.png"
+            headingName="Sunny Side"
+            detailFileName="/sunnySide-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/SwallowBluffCard.png"
+            headingName="Swallow Bluff"
+            detailFileName="/swallowBluff-page"
+            linkText="Click here for Details"
+          />
+          <PlCard
+            fileName="/WindsorCard.png"
+            headingName="Windsor"
+            detailFileName="/windsor-page"
+            linkText="Click here for Details"
+          />
+        </SimpleGrid>
+        <SimpleGrid columns={4} padding="20px" spacing={10}>
+          <PlCard
+            fileName="/WoodruffCard.png"
+            headingName="Woodruff"
+            detailFileName="/woodruff-page"
             linkText="Click here for Details"
           />
         </SimpleGrid>
