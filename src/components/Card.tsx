@@ -13,7 +13,7 @@ const PlCard = ({ fileName, headingName, detailFileName, linkText }: Props) => {
     <>
       <Card borderRadius={10} overflow="hidden">
         <Image src={fileName} h="200px" />
-        <CardBody bg="yellow.600">
+        <CardBody bg="yellow.600" color="whiteAlpha.900">
           <HStack justifyContent="center">
             <Heading fontSize="2xl" pb="10px">
               {headingName}
