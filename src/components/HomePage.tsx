@@ -45,7 +45,7 @@ function HomePage() {
           />
           <PlCard
             fileName="/CassinaCard.png"
-            headingName="Cassina"
+            headingName="Cassina Point"
             detailFileName="/cassina-page"
             linkText="Click here for Details"
           />

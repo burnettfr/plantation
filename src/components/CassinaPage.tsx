@@ -6,7 +6,7 @@ function CassinaPage() {
     <Grid templateAreas={`"top" "main" "foot"`}>
       <GridItem area="top" pb="20px">
         <HStack justifyContent="center">
-          <Text fontSize="4xl">Cassina Details</Text>
+          <Text fontSize="4xl">Cassina Point Details</Text>
         </HStack>
       </GridItem>
       <GridItem area="main">
