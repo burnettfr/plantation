@@ -10,7 +10,7 @@ function HomePage() {
         </HStack>
       </GridItem>
       <GridItem area="main">
-        <SimpleGrid columns={4} padding="20px" spacing={10}>
+        <SimpleGrid columns={5} padding="20px" spacing={10}>
           <PlCard
             fileName="/BaileyCard.png"
             headingName="Bailey House"
@@ -35,14 +35,14 @@ function HomePage() {
             detailFileName="/brickHouse-page"
             linkText="Click here for Details"
           />
-        </SimpleGrid>
-        <SimpleGrid columns={4} padding="20px" spacing={10}>
           <PlCard
             fileName="/BrooklandCard.png"
             headingName="Brookland"
             detailFileName="/brookland-page"
             linkText="Click here for Details"
           />
+        </SimpleGrid>
+        <SimpleGrid columns={5} padding="20px" spacing={10}>
           <PlCard
             fileName="/CassinaCard.png"
             headingName="Cassina Point"
@@ -61,8 +61,6 @@ function HomePage() {
             detailFileName="/cypress-page"
             linkText="Click here for Details"
           />
-        </SimpleGrid>
-        <SimpleGrid columns={4} padding="20px" spacing={10}>
           <PlCard
             fileName="/FrogmoreCard.png"
             headingName="Frogmore"
@@ -75,6 +73,8 @@ function HomePage() {
             detailFileName="/middleton-page"
             linkText="Click here for Details"
           />
+        </SimpleGrid>
+        <SimpleGrid columns={5} padding="20px" spacing={10}>
           <PlCard
             fileName="/OakIslandCard.png"
             headingName="Oak Island"
@@ -87,8 +87,6 @@ function HomePage() {
             detailFileName="/oldHouse-page"
             linkText="Click here for Details"
           />
-        </SimpleGrid>
-        <SimpleGrid columns={4} padding="20px" spacing={10}>
           <PlCard
             fileName="/SeasideCard.png"
             headingName="Seaside"
@@ -107,14 +105,14 @@ function HomePage() {
             detailFileName="/swallowBluff-page"
             linkText="Click here for Details"
           />
+        </SimpleGrid>
+        <SimpleGrid columns={5} padding="20px" spacing={10}>
           <PlCard
             fileName="/WindsorCard.png"
             headingName="Windsor"
             detailFileName="/windsor-page"
             linkText="Click here for Details"
           />
-        </SimpleGrid>
-        <SimpleGrid columns={4} padding="20px" spacing={10}>
           <PlCard
             fileName="/WoodruffCard.png"
             headingName="Woodruff"
